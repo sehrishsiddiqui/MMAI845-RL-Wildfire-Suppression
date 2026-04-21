@@ -1,0 +1,25 @@
+name: gymca
+channels:
+  - conda-forge
+dependencies:
+# Dependencies
+  - python
+  - gymnasium>=1.0.0
+  - numpy
+  - matplotlib
+  - scipy
+  - seaborn
+  - pyyaml
+  - svgpath2mpl
+# Development
+  - ipython
+  - black
+  - isort
+  - mypy
+  - pytest
+  - pytest-repeat
+  - pytest-cov
+  - gif
+  - objprint
+  - pytest-randomly
+  - icecream
